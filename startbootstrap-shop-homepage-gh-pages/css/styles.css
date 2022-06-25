@@ -88,12 +88,6 @@ body {
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
-img{
-  width: 450px;
-  height: 300px;
-  object-fit: contain;
-}
-
 
 hr {
   margin: 1rem 0;
@@ -2493,8 +2487,8 @@ textarea.form-control-lg {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
-
-          accent-color: exact;
+  -webkit-print-color-adjust: exact;
+          color-adjust: exact;
 }
 .form-check-input[type=checkbox] {
   border-radius: 0.25em;
